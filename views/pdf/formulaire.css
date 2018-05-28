@@ -1,0 +1,158 @@
+body{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+.haut{
+    height:6%;
+}
+
+
+.gauche{
+    margin-right: 2px;
+    float:left;
+    width:42%;
+    height:100%;
+}
+
+.droite{
+    float:right;
+    width:56%;
+}
+
+/*.bas p{
+    text-align: center;
+    font-size: small;
+    color: rgb(125, 125, 125);
+}*/
+
+.infos{
+    border : 2px #32CD32 solid;
+    float: left;
+    width: 66%;
+    padding-left: 10px;
+    margin-right: 6px;
+    margin-left: 20px;
+}
+
+#frais_presence, #frais_neo, #frais_business{
+    border : 2px #32CD32 solid;
+    float:right;
+    width: 28%;
+    text-align: center;
+}
+
+#frais_presence{
+   padding-top:59px;
+   padding-bottom: 59px; 
+}
+
+#frais_neo{
+   padding-top:39px;
+   padding-bottom: 36px; 
+}
+
+#frais_business{
+   padding-top:79px;
+   padding-bottom: 69px; 
+}
+
+
+h3{
+    background-color: rgb(204, 204, 204);
+}
+
+textarea{
+    width: 100%;
+}
+
+
+.nom_domaine input{
+    width: 100%;
+}
+
+.etablissement{
+    margin-top: 320px;    
+}
+
+img{
+    width: 100%;
+}
+
+img[src="bas_droite.png"]{
+    margin-top: 44px; 
+}
+
+
+p, li{
+    list-style-type: none;
+    display: block;
+    font-size: small;
+}
+
+li:before {
+	content: "+ "; /* on affiche une chaîne de caractère */
+}
+
+input[name="raison_soc"]{
+    width: 100%;
+}
+
+input[name="CP"], input[name="ville"]{
+    width: 35%;
+}
+
+input[name="nom"], input[name="prenom"]{
+    width: 38%;
+}
+
+input[name="mobile"], input[name="email"]{
+    width: 39.6%;
+}
+
+input[name="nom_etablissement"], input[name="adresse_etablissement"]{
+    width: 100%;
+}
+
+input[name="cp_etablissement"], input[name="ville_etablissement"]{
+    width: 39.5%;
+}
+
+input[name="bouton"]{
+    margin-left: 40%;
+}
+
+input[name="bouton_pack"]{
+    background: #B0E0E6;
+    width: 100%;
+    
+}
+
+
+#LesBoutonsPack{
+  display: flex;
+  flex-direction : row;
+  justify-content : center;
+    
+}
+
+
+#BoutonNeo, #BoutonPresence, #BoutonBusiness{
+    border : 1px #B0E0E6 solid;
+    border-radius: 5px;
+    background: silver;
+    padding: 10px;
+    margin: 20px;
+}
+
+#BoutonNeo input{
+    margin-top: 73px; 
+}
+
+#BoutonPresence input{
+    margin-top: 28px;
+}
+
+
+
